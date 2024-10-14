@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-image: linear-gradient(darkred, red, darkred);
+
+}
+
+table {
+    background-color: white;
+    margin: 25px;
+    border-collapse: collapse;
+}
+
+.film {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-size: 35px;
+
+}
+
+.synopsis {
+    font-size: 20px;
+    font-weight: 1000;
+    padding: 20px 0px 20px 7px;
+}
+
+.texte {
+    font-size: 15px;
+    padding-left: 7px;
+    padding-bottom: 30px;
+}
+
+.aficheFilm {
+    width: 795px;
+}
+
+.distribution {
+    font-size: 30px;
+    background-color: red;
+    color: white;
+
+}
+
+.photoActeur {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.nomActeur {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nomPersonnage {
+    font-size: 13px;
+    color: blueviolet;
+    font-style: italic;
+}
+
+#ChrisEvans {
+    background-image: url("../images/Chris_Evans.png");
+
+}
+
+#ChrisHemsworth {
+    background-image: url("../images/Chris_Hemsworth.png");
+
+}
+
+#JeremyRenner {
+    background-image: url("../images/Jeremy_Renner.png");
+
+}
+
+#MarkRuffalo {
+    background-image: url("../images/Mark_Ruffalo.png");
+
+}
+
+#RobertDowneyJr {
+    background-image: url("../images/Robert_Downey_Jr..png");
+
+}
+
+#ScarlettJohansson {
+    background-image: url("../images/Scarlett_Johansson.png");
+
+}
+
+#TomHiddleston {
+    background-image: url("../images/Tom_Hiddleston.png");
+
+}
+
+ol {
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: disc;
+}
