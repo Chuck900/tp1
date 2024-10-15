@@ -107,10 +107,11 @@ table {
 ol {
     list-style-type: none;
     font-weight: bold;
-
+    font-size: 20px;
 }
 
 ul {
     list-style-type: disc;
     font-weight: lighter;
+    font-size: 15px;
 }
